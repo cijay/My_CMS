@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+
+/***********************************************/
+/****************** GENERAL ********************/
+/***********************************************/
+body{
+    background:no-repeat url(../img/background.jpg) center center #f2f2f2;
+    color:#000;
+    font-family:Arial;
+    font-size:12px;
+    height: 100%;
+    margin:0;
+    margin:0; 
+}
+html{
+    height: 100%; 
+}
+ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    overflow:hidden;
+}
+h1{
+    color:#435d83;
+    font-size:22px;
+    margin:0;
+    padding:0 10px;
+}
+p{
+    margin:0;
+}
+input{
+    border:1px solid #8BA1C3;
+    background:#FFFFFF;
+}
+
+
+/******************************************/
+/****************** ID ********************/
+/******************************************/
+#actualite_container{
+    padding:10px;
+}
+#actualite_container p{
+    margin-top:10px;
+}
+#banner{
+    background:url(../img/banner_background.png) repeat-x #f2f2f2;
+    height:158px;
+    left:0;
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:0;
+}
+#commentaire_action{
+    text-align:center;
+    margin-bottom:20px;
+}
+#container{
+    margin-left:auto;
+    margin-right:auto;
+    min-height: 100%;
+    margin-bottom: -99px;
+    position: relative;
+    width:980px;
+}
+#contents{
+    background:#5c7dad;
+    border:1px solid #5c7dad;
+    position:relative;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#contents_left{
+    width:678px;
+}
+#contents_left .actualite_container{
+    margin-bottom:10px;
+    padding:5px;
+}
+#contents_left .actualite_container li{
+    border-bottom:1px solid #dfe8f5;
+    padding:10px 0;
+
+}
+#contents_left .actualite_contents_left{
+    float:left;
+}
+#contents_left .actualite_contents_right{
+}
+#contents_right{
+    width:271px;
+}
+#contents_right h1{
+    text-align:center;
+    margin:15px;
+}
+#contents_right textarea{
+    background:#FFFFFF;
+    border:1px solid #8ba1c3;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    width:245px;
+    margin:10px;
+    resize:none;
+    height:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+
+}
+#contents_right .actualite_container{
+    background:#f2F2f2;
+    margin:10px;
+    width:249px;
+    border-radius: 5px;
+    border:1px solid #8BA1C3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-size:11px;
+}
+#contents_right .actualite_container li{
+    border-bottom:1px solid #CCC;
+    padding:5px 10px;
+}
+#footer{
+    background:repeat-x url(../img/footer_background.png);
+    height:99px;
+    position:relative;
+}
+#header{
+    height:158px;
+    z-index:1;
+}
+#header_button_enregistrer{
+    background:no-repeat url(../img/banner_button1.png) -135px 0;
+}
+#header_button_enregistrer:hover{
+    background:no-repeat url(../img/banner_button1.png) -135px -39px;
+}
+#header_button_identifier{
+    background:no-repeat url(../img/banner_button1.png) 0 0;
+}
+#header_button_identifier:hover{
+    background:no-repeat url(../img/banner_button1.png) 0 -39px;
+}
+#header_button_facebook{
+    background:no-repeat url(../img/banner_button2.png) -72px 0;
+}
+#header_button_facebook:hover{
+    background:no-repeat url(../img/banner_button2.png) -72px -39px;
+}
+#header_button_rss{
+    background:no-repeat url(../img/banner_button2.png) 0 0;
+}
+#header_button_rss:hover{
+    background:no-repeat url(../img/banner_button2.png) 0 -39px;
+}
+#header_button_twitter{
+    background:no-repeat url(../img/banner_button2.png) -36px 0;
+    margin-left:20px;
+}
+#header_button_twitter:hover{
+    background:no-repeat url(../img/banner_button2.png) -36px -39px;
+}
+#identification{
+    height:39px;
+    margin-top:15px;
+    width:290px;
+    float:left;
+    color:#FFFFFF;
+}
+#identification a{
+    color:#FFFFFF;
+}
+#identification_popup{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -300px;
+    display: none;
+    background:#8BA1C3;
+    border: 5px solid #5C7DAD;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-size:11px;
+    background:#FFFFFF;
+
+}
+#identification_popup table{
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    text-align:center;
+    font-weight:14px;
+    color:#5C7DAD;
+    font-weight:bold;
+}
+#logo{
+    float:left;	
+    height:70px;
+    margin-left: 293px;
+    width:329px;
+}
+#menu{
+    height:35px;
+    margin-top:5px;
+    width:980px;
+}
+#menu ul li{
+    border-right:1px solid #5c7dad;
+    float:left;
+    height: 27px;
+    padding: 8px 20px 0 20px;
+    text-align:center;
+}
+#menu ul li:hover{
+    background:#8ba1c3;
+    cursor:pointer;
+}
+#menu ul li a{
+    color:#FFF;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    text-shadow:#2a4b7b 2px 2px 2px;
+}
+#T-Shirt{
+    background:no-repeat url(../img/300.jpg) center center #f2f2f2;
+    height:483px;
+}
+#paypal{
+    margin:180px 20px 0 0;
+    float:right;
+}
+
+
+/**********************************************/
+/****************** CLASSE ********************/
+/**********************************************/
+.actualite_descr{
+}
+.actualite_img{
+    float:left;
+    height:90px;
+    margin:5px;
+    width:90px;
+}
+.actualite_img IMG{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.button1{
+    border:1px solid #5C7DAD;
+    background:#FFFFFF;
+    color:#5C7DAD;
+    cursor:pointer;
+}
+.clear{
+    clear:both;
+    height:0;
+    width:0;
+}
+.clearfooter {
+    clear: both;
+    height: 99px;
+}
+.contents{
+    background:#FFF;
+    border:1px solid #5c7dad;
+    float:left;
+    margin:5px 0px 5px 5px;
+    width:271px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.header_button{
+    cursor:pointer;
+    float:left;
+    height:39px;
+    width:135px;
+}
+.header_button2{
+    cursor:pointer;
+    float:left;
+    height:39px;
+    margin-top:15px;
+    width:36px;
+}
+.utilisateur{
+    text-align:right;
+    font-size:10px;
+    color:#333;
+}
+.boutique{
+    text-align:center;
+    color: #5C7DAD;
+    font: normal normal 24px/29px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+}
+
